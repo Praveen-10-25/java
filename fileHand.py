@@ -1,0 +1,6 @@
+file=open("task.txt","w+")
+file.write("i'm an new employee  here")
+file.seek(0)
+content=file.read()
+print(content)
+file.close()
